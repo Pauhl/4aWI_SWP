@@ -1,0 +1,120 @@
+﻿
+body {
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-feature-settings: "liga", "kern";
+    background-color: grey;
+
+}
+
+
+#orf {
+    padding-left: 15px;
+    background-color: #bb131A;
+     display: flex;
+
+
+   width: 1500px;
+   box-sizing: border-box;
+}
+#top {
+    background-color: #9E0B0F;
+    justify-content: center;
+    width: 1500px;
+    
+    display: flex;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+    font-size: 20px;
+    
+
+}
+
+#logo {
+    height: 120px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    color: darkslategrey;
+}
+
+
+#vorarlberg {
+    position: relative;
+    padding-top: 50px;
+    color: white;
+    font-weight: 800;
+}
+
+#bottom {
+    background-color: #790000;
+    justify-content: center;
+    width: 1500px;
+    display: flex;
+}
+
+#leer {
+    background-color: #D32824;
+    justify-content: center;
+    width: 1500px;
+    display: flex;
+    border-bottom: 3px solid #E94E38;
+}
+
+#test {
+
+  
+   
+  display:flex;
+    position: absolute;
+}
+ #bild {
+     width: 1500px;
+ }
+
+#inhalt {
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 250px;
+    width: 1000px;
+    z-index: 2;
+}
+
+
+#corona {
+    position: absolute;
+    left: 20px;
+    color: #84868c;
+   
+    font-family: "ORF ON Condensed SC","Helvetica Condensed","Helvetica Neue Condensed","Arial Narrow",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+}
+
+
+#white {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 1500px;
+    height: 580px;
+    margin-top: 600px;
+    z-index: 1;
+}
+
+
+
+#red {
+    position: absolute;
+    left: 20px;
+    color: #84868c;
+}
