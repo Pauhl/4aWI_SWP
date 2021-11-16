@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="javascript.js"></script>
+    <h1>Rechner</h1><br />
+    <input class="feld" type="number" value="0" placeholder="Zahl1" id="zahl1" />
+    <input class="feld" type="number" value="0" placeholder="Zahl2" id="zahl2"/><br />
+
+    <input class="select" type="radio" name="adfs" value="1" /><b class="bb">*</b>
+    <b>/ </b> <input class="select" type="radio" name="adfs" value="2" /><br />
+    <input class="select" type="radio" name="adfs" value="3" /><b class="bb">-</b>
+    <b>+   </b><input class="select" type="radio" name="adfs" value="4" />
+    <br /><br />
+    <button onclick="rechnen()">Rechnen</button>
+
+
+    <p id="ausgabe"></p>
+</body>
+</html>
