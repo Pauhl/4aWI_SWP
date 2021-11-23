@@ -75,3 +75,14 @@ h1 {
 .minus {
     background-image: radial-gradient(100% 100% at 100% 0, #008800 0, #00FF00 100%);
 }
+
+
+p {
+    width: 200px;
+}
+
+
+.erl {
+    border: 1px solid black;
+    padding: 5px;
+}

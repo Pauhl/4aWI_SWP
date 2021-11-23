@@ -36,7 +36,7 @@ function erledigt(a) {
     f = a + "m";
 
    
-    document.getElementById('text').innerHTML += "<p id='"+f+"'>" + text[a] + "</p><br>";
+    document.getElementById('text').innerHTML = "<p id='"+f+"'class='erl'>" + text[a] + "</p>"+document.getElementById('text').innerHTML;
 
 
 
