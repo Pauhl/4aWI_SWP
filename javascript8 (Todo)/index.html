@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="javascript.js"></script>
+    <h1>To-Do-Liste</h1><br />
+    <input class="feld"  value="" placeholder="Aufgabe" id="aufgabetext" />
+ 
+
+    
+    <button id="knopf" onclick="addtask()">Hinzufügen</button>
+    <p id="fertig"></p>
+    <p id="zutun">0 Aufgaben übrig</p>
+
+    <div id="ausgabe"></div>
+    <br />
+    <br>
+    <button id="erledigt" onclick="aufklappen('text')">Erledigte Aufgaben ausblenden</button>
+    <div id="text">
+        <br />
+       <br />
+
+
+    </div>
+</body>
+</html>
