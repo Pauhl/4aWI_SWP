@@ -1,1 +1,23 @@
-﻿
+﻿#spieler, #zwischen, #nochmal {
+    display: none;
+}
+
+img {
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+button {
+    width: 200px;
+ 
+}
+
+#stand {
+    font-size: 20px;
+}
+
+
+#status {
+    font-weight: 900;
+}

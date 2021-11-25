@@ -11,27 +11,42 @@
     <h1>Schere Stein Papier</h1><br />
 
     <div id="einstellungen">
-        <input class="feld" type="number" value="5" placeholder="Anzahl Runden" id="rundenanzahl" /><br>
-        <input type="checkbox"><b>Unentschieden möglich</b><br>
+        <b>Punkte zum Sieg</b><br />
+        <input class="feld" type="number" value="5" id="siegpunkte" /><br><br />
+        
         <button onclick="spielen()">Spielen</button>
-    </div>   
+    </div>
 
-    
+
 
 
     <div id="stand">
-        
+        <p id="status"></p>
+        <p id="runde"></p>
+        <p id="punkte"></p>
+        <p id="ende"></p>
+
     </div>
     <div id="spieler">
-
+        <button> <img onclick="antwort(1)" id="schere" src="schere.png" /></button>
+        <button> <img onclick="antwort(2)" id="stein" src="stein.png" /></button>
+        <button> <img onclick="antwort(3)" id="papier" src="papier.png" /></button>
     </div>
 
 
-    <div id="gegner">
+    <div id="zwischen">
+
+        <button id="1"></button>
+        <button id="2"> </button>
 
     </div>
+    <div id="nochmal">
+       <br /><br /> <button onclick="nochmal()">Nochmal spielen</button>
+    </div>
+    <br /><br /><br /><br /><br />
+    <p>Hinweis: Bei der Schere richtig auf das Bild klicken damit es funktioniert :)</p>
 
 
-  
+
 </body>
 </html>
