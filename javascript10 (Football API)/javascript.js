@@ -1,4 +1,9 @@
-fetch('https://api.football-data.org/v2/matches/100',
+function abfrage(liga) {
+
+
+url = 'https://api.football-data.org/v2/competitions/'+liga+'/scorers'
+
+fetch(url,
 
 {method: "GET",
 headers: {
@@ -7,5 +12,5 @@ headers: {
   .then(response => response.json())
   .then(data => console.log(data));
 
-
+}
 

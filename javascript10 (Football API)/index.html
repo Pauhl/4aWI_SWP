@@ -8,6 +8,42 @@
 </head>
 <body>
     <script src="javascript.js"></script>
+
+
+    <div id="oben">
+        <h1>Top-Schützen pro Liga</h1>
+
+        <label for="liga">Liga auswählen</label>
+
+        <select name="liga" id="liga">
+            <option value="CL">Champions League</option>
+            <option value="saab">Bundesliga</option>
+            <option value="mercedes">Ligue 1</option>
+            <option value="audi">Premier League</option>
+        </select>
+        <br>
+        <label for="saison">Saison auswählen</label>
+
+        <select name="saison" id="saison">
+            <option value="CL">2018/2019</option>
+            <option value="saab">2019/2020</option>
+            <option value="mercedes">2020/2021</option>
+            <option value="audi">2020/2022</option>
+        </select>
+        <br>
+        <button onclick="abfrage('CL')">Anzeigen</button>
+    </div>
+
+
+    <div id="ausgabe">
+        
+
+
+    </div>
+
+
+
+
     
 
 </body>
