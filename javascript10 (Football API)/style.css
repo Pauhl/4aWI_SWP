@@ -1,1 +1,45 @@
 ﻿
+body {
+    height: 100%;
+    /*background-image: url('background.jpeg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zeile {
+    width: 800px;
+    display:flex;
+  justify-content:space-between;
+}
+
+
+.spielername {
+    width: 300px;
+    float:right;
+}
+
+.tore {
+    width: 200px;
+    float: right;
+}
+
+
+.verein {
+    width: 300px;
+    
+}
+
+
+.zeile {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.zeile:nth-child(even) {
+    background-color: lightgray;
+}
+
+.zeile:nth-child(odd) {
+    background-color: lightsteelblue;
+}
