@@ -6,11 +6,24 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="laenderauflisten()">
     <script src="javascript.js"></script>
+    
+    <div id="topleiste">
+        
+                <b>Aktuelle Fußball-Daten</b>
+                <button id="knopf" onclick="wechsel()">
+                    Verein Suche
+                </button>
+        
+        </div>
 
 
-    <div id="oben">
+        
+    <div id="topscorer">
+    
+    <div id="inhalt">
+            <div id="oben">
         <h1>Top-Schützen pro Liga</h1>
 
         <label for="liga">Liga auswählen</label>
@@ -22,15 +35,7 @@
             <option value="PL">Premier League</option>
         </select>
         <br>
-        <label for="saison">Saison auswählen</label>
-
-        <select name="saison" id="saison">
-            <option value="18">2018/2019</option>
-            <option value="19">2019/2020</option>
-            <option value="20">2020/2021</option>
-            <option value="21">2021/2022</option>
-        </select>
-        <br>
+      
         <button onclick="abfrage('CL')">Anzeigen</button><br>
         <p id="vonbis"></p>
     </div>
@@ -44,10 +49,33 @@
         
 
     </div>
+    </div>
+    </div>
 
 
+    <div id="vereinsuche">
 
 
+    <h1>Verein wählen</h1>
+    <div id="vereineauflistung"></div>
+    <div id="auswahl">
+  
+      <button id="einausblenden" onclick="anzeigen()">Alle anzeigen</button>
+      <button onclick="vereinnachland()">Vereine anzeigen</button>
+      <div id="hauptland">
+  
+        <div><input name="a" value="2016" type="checkbox"><b>Austria</b></div>
+        <div><input name="a" value="2088" type="checkbox"><b>Germany</b></div>
+        <div><input name="a" value="2081" type="checkbox"><b>France</b></div>
+        <div><input name="a" value="2092" type="checkbox"><b>Great Britain</b></div>
+        <div><input name="a" value="2224" type="checkbox"><b>Spain</b></div>
+  
+        <div><input value="2252" type="checkbox"><b>Uganda</b></div>
+        <div id="landausgabe"></p></div>
+  
+      </div>
+    </div>
+  </div>
     
 
 </body>
