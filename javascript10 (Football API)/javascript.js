@@ -108,6 +108,9 @@ function vereinausgeben(vereinsdaten) {
   document.getElementById('ausgabe').innerHTML = ausgabe;
 
 
+  document.getElementById('vereinsname').innerHTML = vereinsdaten.name;
+
+
 }
 
 
@@ -204,7 +207,7 @@ function laenderausgaben(laenderdaten) {
 
 
 
-    land += "<div class='" + (((i + 1) % 5) + 1) + "'><input type='checkbox' name='a' value='" + laenderdaten.areas[i].id + "'><b>" + laenderdaten.areas[i].name + "</b></div>";
+    land += "<div class='abcd'><input type='checkbox' name='a' value='" + laenderdaten.areas[i].id + "'><b>" + laenderdaten.areas[i].name + "</b></div>";
     if ((i + 1) % 5 == 0) {
       //land += "</div><div class='landzeile'>";
     }
@@ -251,7 +254,7 @@ function vereintabelle(vereinsdaten) {
 
 
 
-    tabelleausgabe += "<b><a href='verein.html?v=" + vereinsdaten.teams[i].id + "'>" + vereinsdaten.teams[i].name + "</a></b><br>";
+    tabelleausgabe += "<div class='abc'><b><a href='verein.html?v=" + vereinsdaten.teams[i].id + "'>" + vereinsdaten.teams[i].name + "</a></b></div><br>";
 
 
   }
@@ -270,9 +273,11 @@ function wechsel() {
     document.getElementById('knopf').innerHTML = "Vereine suchen";
     document.getElementById('vereinsuche').style.gridRow = 3;
     document.getElementById('topscorer').style.gridRow = 2;
+    document.getElementById('landausgabe').style.visibility = 'hidden';
   }
   else {
     document.getElementById('topscorer').style.visibility = 'hidden';
+    document.getElementById('landausgabe').style.visibility = 'hidden';
     document.getElementById('vereinsuche').style.gridRow = 2;
     document.getElementById('topscorer').style.gridRow = 3;
     document.getElementById('vereinsuche').style.visibility = 'visible'; 
@@ -282,5 +287,6 @@ function wechsel() {
   anzeig++;
 
 }
+
 
 

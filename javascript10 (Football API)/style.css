@@ -8,8 +8,16 @@ body {
     
     display: grid;
   grid-template-rows: 1fr, 1fr, 1fr;
+  background-color: lightslategrey;
 
 }
+
+
+.lol {
+    padding-left: 15px;
+    font-size: 24px;
+}
+
 
 #topscorer {
     padding-top: 50px;
@@ -27,6 +35,11 @@ body {
     /*padding-top: 50px;*/
 
     
+}
+
+
+#test {
+    padding-top: 40px;
 }
 
 
@@ -91,8 +104,64 @@ h2 {
     grid-template-columns: 400px 400px 400px;
 }
 
-
-#landausgabe {
-    visibility: hidden;
+.abc {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
+.abc:nth-child(even) {
+    background-color: lightgray;
+}
+
+.abc:nth-child(odd) {
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+h1 {
+    
+    font-size:28pt;  /* Größe 28pt   */
+    font-family:arial, "lucida console", sans-serif; /* Schriftart */
+  }
+
+
+
+
+  p, b, h2, h3, button, label, input {
+    font-family:arial, "lucida console", sans-serif; /* Schriftart */
+  }
+
+
+  button, input, select {
+    cursor: pointer;
+    align-items: center;
+    
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 80%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 32px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+
+  }
