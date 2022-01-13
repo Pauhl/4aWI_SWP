@@ -18,7 +18,7 @@ function anzeigen() {
 
 function abfrage() {
 
-  liga = document.querySelector("#liga").value;;
+  liga = document.querySelector("#liga").value;
 
 
 
