@@ -1,6 +1,6 @@
 import SuperButton from './SupperButton';
 import React, { Component } from "react";
-import styles from './SupperButton.module.css';
+import styles from './ButtonRow.module.css';
 
 export default class ButtonRow extends Component{
     render() {

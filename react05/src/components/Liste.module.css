@@ -1,0 +1,33 @@
+
+
+
+.liste {
+
+    list-style: none;
+   
+    
+
+}
+
+.eins {
+   
+    background-color: lightsalmon;
+    margin: 10px;
+    border-radius: 10px;
+    margin-right: 35%;
+    margin-left: 35%;
+    border: 1px solid black;
+
+}
+
+
+.eins:hover {
+   cursor: pointer;
+    background-color: salmon;
+    margin: 11px;
+    border-radius: 10px;
+    margin-right: 34%;
+    margin-left: 34%;
+    border: 1px solid black;
+
+}

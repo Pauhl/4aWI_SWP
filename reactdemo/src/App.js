@@ -8,6 +8,9 @@ function App() {
      <h1>Hallo</h1>
      <SuperButton/>
      <ButtonRow/>
+     <ButtonRow/>
+     <ButtonRow/>
+     <ButtonRow/>
     </div>
   );
 }
