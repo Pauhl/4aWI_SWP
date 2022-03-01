@@ -1,0 +1,19 @@
+.bar {
+    background-color: lightblue;
+    height: 60px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.headline {
+    
+    color: darkblue; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 42px; font-weight: 600;
+    line-height: 52px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px black;
+}
