@@ -3,22 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import InGame from './components/InGame.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
     <App />
-    
-    <Routes>
-        <Route index path="ingame" element={<InGame/>}>
-           
-           </Route>
-        </Routes>
-   
-    </BrowserRouter>
-  
   </React.StrictMode>,
   document.getElementById('root')
 );

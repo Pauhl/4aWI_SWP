@@ -1,0 +1,9 @@
+.game {
+    background-color: red;
+    border: 1px solid black;
+
+}
+
+.game:hover {
+    background-color: orangered;
+}

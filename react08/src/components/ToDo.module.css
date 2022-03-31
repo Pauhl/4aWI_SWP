@@ -1,0 +1,32 @@
+.container {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 3px;
+   padding-left: 25px;
+   padding-right: 25px;
+   background-color: mediumaquamarine;
+   -webkit-box-shadow: 5px 9px 36px -3px rgba(0,0,0,0.88);
+-moz-box-shadow: 5px 9px 36px -3px rgba(0,0,0,0.88);
+box-shadow: 5px 9px 36px -3px rgba(0,0,0,0.88);
+height: 50px;
+
+}
+
+
+.button {
+   padding: 0;
+border: none;
+background: none;
+}
+
+.icon {
+   font-size: 3rem;
+}
+
+.icon:hover {
+   font-size: 3.5rem;
+}
+
+.title {
+   font-size: 2rem;
+}
